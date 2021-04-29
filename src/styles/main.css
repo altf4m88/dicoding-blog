@@ -65,7 +65,6 @@ body {
     width: 24%;
     text-align: center;
     line-height: 24px;
-    padding: 24px;
     text-transform: uppercase;
 }
 
@@ -137,13 +136,8 @@ main {
  * headline
  */
 
-.headline {
-    overflow: auto;
-}
-
 .headline__figure {
     width: 100%;
-    float: left;
 }
 
 .headline__figure img {
@@ -160,7 +154,6 @@ main {
 
 .headline__content {
     width: 100%;
-    float: left;
     padding: 16px 32px;
 }
 
@@ -220,7 +213,6 @@ main {
 .posts {
     margin: 32px auto auto;
     text-align: left;
-    overflow: auto;
 }
 
 /*
@@ -228,8 +220,7 @@ main {
  */
 
 .post-item {
-    float: left;
-    margin: 16px;
+    margin: 16px 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     border-radius: 5px;
@@ -300,6 +291,8 @@ footer li {
 }
 
 footer a {
+    display: inline-block;
+    padding: 1.3em;
     text-decoration: none;
     color: #fff
 }
